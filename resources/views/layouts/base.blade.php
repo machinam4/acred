@@ -41,6 +41,9 @@
 </head>
 
 <body oncontextmenu="return false;">
+
+    <div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="k8JshAIN"></script>
     <!-- Start Back to top
 =========================================================================-->
     <div id="scroll" style="display: none;"><i class="fa fa-angle-up"></i></div>
@@ -217,7 +220,7 @@
                                 </li>
                                 <li>
                                     Email
-                                    <span class="color-white">info@acredinvestments.com</span>
+                                    <span class="color-white">info@acredinvestment.com</span>
                                 </li>
                                 <li>
                                     Free Consultation
@@ -227,6 +230,7 @@
                         </div>
                     </div>
                 </div>
+
                 <div class="col-sm-6 col-md-6 col-lg-3 wow animated slideInDown">
                     <div class="footer-widget color-gray-light mt-sm-30">
                         <h3 class="color-white line-bottom pb-15 mb-20">About</h3>
@@ -253,6 +257,12 @@
                         </div>
                     </div>
                 </div>
+                 <div class="col-sm-6 col-md-6 col-lg-3 wow animated slideInUp">
+                    <div class="footer-widget color-gray-light mt-md-30">
+<div class="fb-page" data-href="https://www.facebook.com/ACRED-1984627011828522/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ACRED-1984627011828522/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ACRED-1984627011828522/">ACRED</a></blockquote></div>                    </div>
+                </div>
+
+
             </div>
         </div>
     </footer>
@@ -262,7 +272,7 @@
                 <hr class="border-top-1-light-gray w-100 m-0">
                 <div class="col-md-12 col-lg-12">
                     <div class="py-15 text-center">
-                        AcredInvestments @ 2020. All Rights Reserved.
+                        AcredInvestment @ 2020. All Rights Reserved.
                     </div>
                 </div>
             </div>
