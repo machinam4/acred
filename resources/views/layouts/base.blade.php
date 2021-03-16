@@ -156,10 +156,14 @@
                                 <div class="side-title pb-30">
                                     <span class="small-title color-primary position-relative line-primary">Partners</span>
                                     <h2 class="title mb-20 color-secondary">Our Popular Fellows!</h2>
-                                    <p>Luctus posuere facilisi eros auctor lacinia litora. Convall aptent nisy
-                                        parturient scelerisq. Nullam fringil condimen integer mauris lacus aliquam, quam
-                                        massa lobortis commod proin magna.</p>
+                                    <p>Working with investors, developers and real estate development companies, we think not only about one-off profit, but also about the long term mutually beneficial business relationship.</p>
                                 </div>
+                                <form class="news-letter bg-gray mt-30">
+                                    <div class="form-group position-relative">
+                                        <input class="form-control" type="text" name="email" placeholder="PAtner with us">
+                                        <button class="bg-gray color-secondary"><i class="fa fa-paper-plane"></i></button>
+                                    </div>
+                                </form>
                             </div>
                             <div class="col-md-12 col-lg-6 px-60">
                                 <div class="side-title pb-30 mt-md-50 text-right">
