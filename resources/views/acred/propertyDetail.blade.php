@@ -44,7 +44,7 @@
 						<div class="col-md-12 col-lg-8 wow slideInRight animated">
 							<div class="single-property position-relative">
 								<span class="bg-secondary color-white z-index-1 px-15 py-5 mr-20">For {{$property->acquisition}}</span>
-								<strong class="color-primary f-20">Ksh {{$property->price}}</strong>
+								<strong class="color-primary f-20">Ksh {{ReadableHumanNumber($property->price)}}</strong>
 								<h3 class="color-secondary mt-15">{{$property->title}}</h3>
 								<span class="address icon-primary f-14 mt-5"><i class="fa fa-map-marker"></i>{{$property->address}}, {{$property->county}}.</span>
 								<ul class="property-features icon-primary d-table f-14 mt-15">
@@ -179,15 +179,8 @@
 			</div>
 			<div class="col-md-12 col-lg-4">
 				<div class="sidebar-widget bg-white mt-50 shadow py-40 px-30 wow slideInUp animated">
-					<h3 class="color-secondary line-bottom pb-15 mb-20">Contact an Agent</h3>
-					<div class="d-flex">
-						<div class="contact-agent-image mr-20 float-left"><img src="images/team/1.jpg" class="rounded-circle" alt="images"></div>
-	                    <div class="align-self-center color-gray">
-	                    	<h6 class="d-block mb-1 w-100 color-secondary">Andrew Gunservice</h6>
-	                    	<p>fresher@info.com</p>
-	                    	<p> (012) 234 567 890</p>
-	                    </div>
-					</div>
+					<h3 class="color-secondary line-bottom pb-15 mb-20">Contact Us</h3>
+					
 					<form action="#" method="post" class="mt-30">
 						<div class="row">
 							<div class="form-group col-md-12">
@@ -244,7 +237,7 @@
                             <div class="property-cost color-white list-half w-100">
                                 <ul>
                                     <li class="bg-primary">For {{$property->acquisition}}</li>
-                                    <li>Ksh {{$property->price}} <sub>/Month</sub></li>
+                                    <li>Ksh {{ReadableHumanNumber($property->price)}} <sub>/Month</sub></li>
                                 </ul>
                             </div>
                         </div>

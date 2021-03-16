@@ -65,9 +65,9 @@
                     </div>
                     <div class="col-md-12 col-lg-3 col-xl-4">
                         <ul class="social-media-1 d-flex color-white-a float-right">
-                            <li><a href="https://www.facebook.com/ACRED-1984627011828522/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="https://twitter.com/acredinvestment?s=08"><i class="fa fa-twitter"></i></a></li>
-                            <li><a href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0"><i class="fa fa-instagram"></i></a></li>
+                            <li><a target="blank" href="https://www.facebook.com/ACRED-1984627011828522/"><i class="fa fa-facebook"></i></a></li>
+                            <li><a target="blank" href="https://twitter.com/acredinvestment?s=08"><i class="fa fa-twitter"></i></a></li>
+                            <li><a target="blank" href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -203,9 +203,9 @@
                 <div class="col-sm-8 col-md-8 col-lg-6 wow animated slideInRight">
                     <ul class="social-media-2 large color-white-a float-right">
                         <li class="mr-20"><strong>Follow Us:</strong></li>
-                        <li><a href="https://www.facebook.com/ACRED-1984627011828522/"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="https://twitter.com/acredinvestment?s=08"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0"><i class="fa fa-instagram"></i></a></li>
+                        <li><a target="blank" href="https://www.facebook.com/ACRED-1984627011828522/"><i class="fa fa-facebook"></i></a></li>
+                        <li><a target="blank" href="https://twitter.com/acredinvestment?s=08"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="blank" href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
                 <hr class="border-bottom-1 w-100 my-50">
@@ -257,9 +257,8 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-sm-6 col-md-6 col-lg-3 wow animated slideInUp">
-                    <div class="footer-widget color-gray-light mt-md-30">
-<div class="fb-page" data-href="https://www.facebook.com/ACRED-1984627011828522/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ACRED-1984627011828522/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ACRED-1984627011828522/">ACRED</a></blockquote></div>                    </div>
+                 <div class="col-sm-6 col-md-6 col-lg-3">
+<div class="fb-page" data-href="https://www.facebook.com/ACRED-1984627011828522/" data-tabs="timeline" data-width="350" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ACRED-1984627011828522/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ACRED-1984627011828522/">ACRED</a></blockquote></div>
                 </div>
 
 

@@ -181,7 +181,7 @@
                                                 <div class="property-cost color-white list-half w-100">
                                                     <ul>
                                                         <li class="bg-primary">For {{ $property->acquisition}}</li>
-                                                        <li>Ksh {{ $property->price}} <sub>/Month</sub></li>
+                                                        <li>Ksh {{ ReadableHumanNumber($property->price)}} <sub>/Month</sub></li>
                                                     </ul>
                                                 </div>
                                             </div>
@@ -242,7 +242,7 @@
                                                  <div class="property-cost color-white list-half w-100">
                                                      <ul>
                                                          <li class="bg-primary">For Rent</li>
-                                                         <li>Ksh {{$property->price}} </li>
+                                                         <li>Ksh {{ReadableHumanNumber($property->price)}} </li>
                                                      </ul>
                                                  </div>
                                              </div>

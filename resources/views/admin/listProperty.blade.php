@@ -52,7 +52,7 @@
                                         <span><i class="fa fa-map-marker mr-5"></i> {{ $property->address}},
                                             {{ $property->county}}</span>
                                         <div class="price mt-15"> <span class="color-primary">Ksh
-                                                {{ $property->price}}</span> <span>/ Fixed Amount</span> </div>
+                                                {{ ReadableHumanNumber($property->price)}}</span> <span>/ Fixed Amount</span> </div>
                                     </div>
                                 </td>
                                 <td>{{ $property->updated_at->toDateString()}}</td>

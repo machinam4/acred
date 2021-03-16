@@ -25,7 +25,7 @@
             <i class="fa fa-map-marker color-primary mr-5" aria-hidden="true"></i>{{ $property->address}}, {{ $property->county}}.
         </p>
         <p style="font-weight:400; font-family:'Roboto'; font-size:15px; line-height:76px; color:#ffffff; top:470px; left:53px; white-space:nowrap;" class="ls-l" data-ls="offsetyin:0; durationin:1000; delayin:2200; offsetyout:-30; durationout:400; parallaxlevel:0;">
-            Ksh {{$property->price}} / Monthly</p>
+            Ksh {{ReadableHumanNumber($property->price)}} / Monthly</p>
         <a style="" class="ls-l" href="{{ route('details', $property) }}" target="_self" data-ls="offsetyin:30; durationin:1000; delayin:2800; offsetyout:-30; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#ffffff; hovercolor:#242424; parallaxlevel:0;">
             <p style="font-weight: 500; text-align:center; cursor:pointer; padding-top:8px; padding-bottom:7px; font-family:'Montserrat'; font-size:15px; top:560px; left:53px; border-top:2px solid #fff; border-right:2px solid #fff; padding-right:25px; border-bottom:2px solid #fff; border-left:2px solid #fff; padding-left:25px; line-height:30px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0, 0, 0, 0.1); border-radius:0px;" class="ls-button">View Details</p>
         </a>
@@ -252,7 +252,7 @@
                             <div class="hover-content py-30 px-20 overlay-hover-gradient">
                                 <div class="thumbnail-title z-index-1 position-relative">
                                     <span class="thumbnail-price bg-white color-secondary px-15 mb-10 d-table">Ksh
-                                        {{$property->price}}</span>
+                                        {{ReadableHumanNumber($property->price)}}</span>
                                     <a class="color-secondary mb-5" href="{{ route('details', $property) }}">
                                         <h4>{{$property->title}}</h4>
                                     </a>
@@ -472,7 +472,7 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                             <div class="property-cost color-white list-half w-100">
                                 <ul>
                                     <li class="bg-primary">For {{$property->acquisition}}</li>
-                                    <li>Ksh {{$property->price}} <sub>/Month</sub></li>
+                                    <li>Ksh {{ReadableHumanNumber($property->price)}} <sub>/Month</sub></li>
                                 </ul>
                             </div>
                         </div>
