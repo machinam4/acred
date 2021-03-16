@@ -95,7 +95,7 @@
                                 <div class="select-wrapper position-relative">
                                     <select class="select form-control">
                                         <option>All Type</option>
-                                        <option>Appartment</option>
+                                        <option>Apartment</option>
                                         <option>Residential</option>
                                         <option>Commercial</option>
                                         <option>Land</option>
@@ -288,8 +288,7 @@
                 <div class="main-title w-50 mx-auto d-table text-center mb-30">
                     <span class="small-title color-primary position-relative line-2-primary">Explore</span>
                     <h2 class="title mb-20 color-secondary">Neighborhoods</h2>
-                    <span class="sub-title">Sociis eget dui hendrerit urna felis euismod viverra. Inceptos habitasse
-                        augue quisque facilisis per. Nibh justo massa suscipit.</span>
+                    <span class="sub-title">With Acred, we get you the best neighborhoods favorable for your lifestyle and comfort.</span>
                 </div>
             </div>
             <div class="col-md-12 col-lg-12">
@@ -308,7 +307,7 @@
                     </div>
                     <div class="neighborhoods-thumbnail wow animated slideInUp">
                         <a href="#"><img src="images/explore/2.jpg" alt="images"></a>
-                        <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Lavington</h6>
+                        <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Kilimani</h6>
                         <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
                             <ul>
                                 <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
@@ -320,7 +319,7 @@
                     </div>
                     <div class="neighborhoods-thumbnail wow animated slideInDown">
                         <a href="#"><img src="images/explore/3.jpg" alt="images"></a>
-                        <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Ruiru</h6>
+                        <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">UpperHill</h6>
                         <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
                             <ul>
                                 <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
@@ -356,7 +355,7 @@
                     </div>
                     <div class="neighborhoods-thumbnail">
                         <a href="#"><img src="images/explore/6.jpg" alt="images"></a>
-                        <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Ngong</h6>
+                        <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Mombasa Road</h6>
                         <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
                             <ul>
                                 <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
@@ -499,8 +498,7 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                 <div class="main-title w-50 mx-auto d-table text-center mb-60">
                     <span class="small-title color-primary position-relative line-2-primary">Testimonial</span>
                     <h2 class="title mb-20 color-secondary">What Our Client's Say</h2>
-                    <span class="sub-title">Sociis eget dui hendrerit urna felis euismod viverra. Inceptos habitasse
-                        augue quisque facilisis per. Nibh justo massa suscipit.</span>
+
                 </div>
             </div>
             <!-- Slider HTML markup -->

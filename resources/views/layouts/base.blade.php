@@ -63,7 +63,7 @@
                     <div class="col-md-12 col-lg-3 col-xl-4">
                         <ul class="social-media-1 d-flex color-white-a float-right">
                             <li><a href="https://www.facebook.com/ACRED-1984627011828522/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                            <li><a href="https://twitter.com/acredinvestment?s=08"><i class="fa fa-twitter"></i></a></li>
                             <li><a href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0"><i class="fa fa-instagram"></i></a></li>
                         </ul>
                     </div>
@@ -105,7 +105,7 @@
                                 <ul class="admin-info color-white-a">
                                 @guest
 
-                            <li><a href="/">Welcome</a></li>
+                            <li></li>
 
                             @else
                             <li class="nav-item dropdown">
@@ -155,12 +155,12 @@
                             <div class="col-md-12 col-lg-6 px-60 border-right">
                                 <div class="side-title pb-30">
                                     <span class="small-title color-primary position-relative line-primary">Partners</span>
-                                    <h2 class="title mb-20 color-secondary">Our Popular Fellows!</h2>
+                                    <h2 class="title mb-20 color-secondary">Like to work with us?</h2>
                                     <p>Working with investors, developers and real estate development companies, we think not only about one-off profit, but also about the long term mutually beneficial business relationship.</p>
                                 </div>
                                 <form class="news-letter bg-gray mt-30">
                                     <div class="form-group position-relative">
-                                        <input class="form-control" type="text" name="email" placeholder="PAtner with us">
+                                        <input class="form-control" type="text" name="email" placeholder="Patner with us">
                                         <button class="bg-gray color-secondary"><i class="fa fa-paper-plane"></i></button>
                                     </div>
                                 </form>
@@ -201,7 +201,7 @@
                     <ul class="social-media-2 large color-white-a float-right">
                         <li class="mr-20"><strong>Follow Us:</strong></li>
                         <li><a href="https://www.facebook.com/ACRED-1984627011828522/"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://twitter.com/acredinvestment?s=08"><i class="fa fa-twitter"></i></a></li>
                         <li><a href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0"><i class="fa fa-instagram"></i></a></li>
                     </ul>
                 </div>
@@ -217,7 +217,7 @@
                                 </li>
                                 <li>
                                     Email
-                                    <span class="color-white">support@acredinvestments.com</span>
+                                    <span class="color-white">info@acredinvestments.com</span>
                                 </li>
                                 <li>
                                     Free Consultation
@@ -234,8 +234,7 @@
                             <ul class="quick-links">
                                 <li><a href="{{ route('about') }}">Company</a></li>
                                 <li><a href="#">Community</a></li>
-                                <li><a href="#">Carrers</a></li>
-                                <li><a href="#">News</a></li>
+                                <li><a href="{{ route('about') }}">News</a></li>
                                 <li><a href="{{ route('contact') }}">Contact</a></li>
                             </ul>
                         </div>
@@ -246,25 +245,10 @@
                         <h3 class="color-white line-bottom pb-15 mb-20">Quick Links</h3>
                         <div class="widget-content hover-white-primary">
                             <ul class="quick-links">
-                                <li><a href="#">For Rent</a></li>
-                                <li><a href="#">For Sale</a></li>
-                                <li><a href="#">Commercial</a></li>
-                                <li><a href="#">Lands</a></li>
-                                <li><a href="#">Property Guides</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-6 col-lg-3 wow animated slideInDown">
-                    <div class="footer-widget color-gray-light mt-sm-30">
-                        <h3 class="color-white line-bottom pb-15 mb-20">Help</h3>
-                        <div class="widget-content hover-white-primary">
-                            <ul class="quick-links">
-                                <li><a href="#">Payments</a></li>
-                                <li><a href="#">Shipping</a></li>
-                                <li><a href="#">Cancellation</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Report</a></li>
+                                <li><a href="{{ route('listing', 'residential') }}">For Rent</a></li>
+                                <li><a href="{{ route('listing', 'residential') }}">For Sale</a></li>
+                                <li><a href="{{ route('listing', 'office') }}">Commercial</a></li>
+                                <li><a href="{{ route('listing', 'land') }}">Lands</a></li>
                             </ul>
                         </div>
                     </div>

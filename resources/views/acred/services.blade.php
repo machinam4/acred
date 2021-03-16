@@ -10,9 +10,8 @@
                 <div class="col-lg-12">
                     <h1 class="page-banner-title color-primary">Services</h1>
                     <div class="text-area w-50 mt-15 color-white">
-                        <p>Porttitor luctus est sit lacinia non praesent aptent hymenaeos taciti tortor. Sociosq platea
-                            porta facilisis vitae dictum bibendun tellus ante fusce vulputate dolor lorem vulputate hac
-                            quisque diam etiam.</p>
+                        <p>Services provided by Acred Investment company evoke positive emotions and lead to the changes in clients lives for the better. 
+                             to serve all of our clients’ real estate needs in today’s increasingly fast-paced world, first of all to make them happy while looking for their preferred property investment. </p>
                     </div>
                 </div>
             </div>
@@ -43,9 +42,7 @@
                     <div class="main-title w-75 mx-auto d-table text-center mb-30">
                         <span class="small-title color-primary position-relative line-2-primary">What We Do?</span>
                         <h2 class="title mb-20 color-secondary">Our Services</h2>
-                        <span class="sub-title">Congue commodo ipsum, risus urna nisi. Primis velit turpis sollicitudin.
-                            Felis aptent sagittis aliquet turpis et tristique montes vestibulum rutrum. Scelerisque viverra
-                            ac ridiculus enim. Curabitur.</span>
+                        <span class="sub-title">Services provided by Acred Investment company evoke positive emotions and lead to the changes in clients lives for the better. .</span>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow slideInRight animated">
@@ -155,8 +152,8 @@
                 </div>
                 <div class="col-md-12 col-lg-6">
                     <div class="color-white">
-                        <p>Luctus posuere facilisi eros auctor lacinia litora. Convall aptent nisy parturient scelerisq.
-                            Nullam fringil condimen integer mauris lacus aliquam, quam massa lobortis commod proin magna.
+                        <p>Working with Acred Investment we offer you very simple steps to obtain your dream property.
+                            From simple manageable steps, Acred gets you to your comfort home.
                         </p>
                     </div>
                 </div>
@@ -213,9 +210,7 @@
                         <span class="small-title color-primary position-relative line-2-primary">What Are You Looking
                             For?</span>
                         <h2 class="title mb-20 color-secondary">Find the Best Places to you.</h2>
-                        <span class="sub-title">Congue commodo ipsum, risus urna nisi. Primis velit turpis sollicitudin.
-                            Felis aptent sagittis aliquet turpis et tristique montes vestibulum rutrum. Scelerisque viverra
-                            ac ridiculus enim. Curabitur.</span>
+                        <span class="sub-title">At Acred, we help you the ,most suitable investment tailormade and affordable to needs. With a wide variety of properties, we assure to solve all your property needs.</span>
                     </div>
                 </div>
                 <div class="col-lg-12">
@@ -292,7 +287,7 @@
                     <h2 class="color-secondary">Great Experience For Real Estate Property Selling</h2>
                 </div>
                 <div class="col-md-12 col-lg-4 align-self-center">
-                    <a class="btn btn-secondery float-right mt-lg-30" href="#">Contact With Us</a>
+                    <a class="btn btn-secondery float-right mt-lg-30" href="#">Contact Us</a>
                 </div>
             </div>
         </div>

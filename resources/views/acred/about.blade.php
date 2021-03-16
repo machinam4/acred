@@ -228,9 +228,8 @@
                 </div>
                 <div class="col-md-12 col-lg-6 wow slideInRight animated">
                     <div class="color-white">
-                        <p>Luctus posuere facilisi eros auctor lacinia litora. Convall aptent nisy parturient scelerisq.
-                            Nullam fringil condimen integer mauris lacus aliquam, quam massa lobortis commod proin
-                            magna.</p>
+                        <p>Working with Acred Investment we offer you very simple steps to obtain your dream property.
+                            From simple manageable steps, Acred gets you to your comfort home.</p>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-12 wow slideInUp animated">
@@ -286,9 +285,7 @@
                         <span class="small-title color-primary position-relative line-2-primary">What Are You Looking
                             For?</span>
                         <h2 class="title mb-20 color-secondary">Find the Best Places to you.</h2>
-                        <span class="sub-title">Congue commodo ipsum, risus urna nisi. Primis velit turpis sollicitudin.
-                            Felis aptent sagittis aliquet turpis et tristique montes vestibulum rutrum. Scelerisque
-                            viverra ac ridiculus enim. Curabitur.</span>
+                        <span class="sub-title">At Acred, we help you the ,most suitable investment tailormade and affordable to needs. With a wide variety of properties, we assure to solve all your property needs.</span>
                     </div>
                 </div>
                 <div class="col-lg-12">

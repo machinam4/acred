@@ -3,15 +3,14 @@
 @section('content')
 <!-- Page Banner Start
             ==================================================================-->
-<div class="page-banner overlay-black" style="padding: 150px 0">
+<div class="page-banner overlay-black" style="padding: 150px 0; background: url(../images/background/acredinvestment_map.webp) no-repeat center center / cover;
+    width: 100%;">
     <div class="container h-100">
         <div class="row h-100 align-items-center">
             <div class="col-lg-12">
                 <h1 class="page-banner-title color-primary">Contact Us</h1>
                 <div class="text-area w-50 mt-15 color-white">
-                    <p>Porttitor luctus est sit lacinia non praesent aptent hymenaeos taciti tortor. Sociosq platea
-                        porta facilisis vitae dictum bibendun tellus ante fusce vulputate dolor lorem vulputate hac
-                        quisque diam etiam.</p>
+                    <p> Sharing the responsibility to the clients who entrust the realization of their dream to us, we guarantee an excellent result by relentlessly delivering our traditional care and up-to-date information, technology advancements and modern concepts that become essential to the way we work and live.</p>
                 </div>
             </div>
         </div>
@@ -64,7 +63,7 @@
                 </form>
             </div>
             <div class="col-md-12 col-lg-5 col-xl-4">
-                <h3 class="color-secondary line-bottom pb-15 mb-30 mt-md-50 wow slideInDown animated">Contact With
+                <h3 class="color-secondary line-bottom pb-15 mb-30 mt-md-50 wow slideInDown animated">Contact
                     Us</h3>
                 <ul class="contact-info icon-font-small icon-primary wow slideInUp animated">
                     <li>
@@ -79,8 +78,8 @@
                         <i class="fa fa-envelope"></i>
                         <div class="d-inline-block">
                             <strong class="d-block">Email</strong>
-                            <span>support@acredinvestment.com</span>
-                            <span>info@acredinvestment.com</span>
+                             <span>info@acredinvestment.com</span>
+                            <span>partner@acredinvestment.com</span>                           
                         </div>
                     </li>
                     <li>
