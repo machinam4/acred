@@ -161,12 +161,9 @@
                                     <h2 class="title mb-20 color-secondary">Like to work with us?</h2>
                                     <p>Working with investors, developers and real estate development companies, we think not only about one-off profit, but also about the long term mutually beneficial business relationship.</p>
                                 </div>
-                                <form class="news-letter bg-gray mt-30">
-                                    <div class="form-group position-relative">
-                                        <input class="form-control" type="text" name="email" placeholder="Patner with us">
-                                        <button class="bg-gray color-secondary"><i class="fa fa-paper-plane"></i></button>
-                                    </div>
-                                </form>
+                                <div class="btn-position x-center">
+                                    <a class="btn btn-primary position-relative" href="{{Route('contact')}}">Contact Us</a>
+                                </div>
                             </div>
                             <div class="col-md-12 col-lg-6 px-60">
                                 <div class="side-title pb-30 mt-md-50 text-right">
@@ -177,10 +174,19 @@
                                         Get private announcement and priority content by subscribing to our newsletter.
                                     </p>
                                 </div>
-                                <form class="news-letter bg-gray mt-30">
+                                <form class="news-letter bg-gray mt-30" id=contact-form>
                                     <div class="form-group position-relative">
+                                        @csrf
+                                        <input type="hidden" name="type" value="client">
+                                        <input type="hidden" name="name" value="client">
+                                        <input type="hidden" name="subject" value="client">
+                                        <input type="hidden" name="message" value="client">                                        
                                         <input class="form-control" type="text" name="email" placeholder="Subscribe">
-                                        <button class="bg-gray color-secondary"><i class="fa fa-paper-plane"></i></button>
+                                        <button class="bg-gray color-secondary" id="send"><i class="fa fa-paper-plane"></i></button>
+                                    </div>
+                                    <div class="error-handel position-relative">
+                                        <div id="success">Your email sent Successfully, Thank you.</div>
+                                        <div id="error">Error occurred while sending email. Please try again later.</div>
                                     </div>
                                 </form>
                             </div>
@@ -258,7 +264,10 @@
                     </div>
                 </div>
                  <div class="col-sm-6 col-md-6 col-lg-3">
-<div class="fb-page" data-href="https://www.facebook.com/ACRED-1984627011828522/" data-tabs="timeline" data-width="350" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ACRED-1984627011828522/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ACRED-1984627011828522/">ACRED</a></blockquote></div>
+                                         <div class="footer-widget color-gray-light mt-md-30">
+
+                    <div class="fb-page" data-href="https://www.facebook.com/ACRED-1984627011828522/" data-tabs="timeline" data-width="" data-height="360" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ACRED-1984627011828522/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ACRED-1984627011828522/">ACRED</a></blockquote></div>
+                                         </div>
                 </div>
 
 
@@ -296,7 +305,8 @@
     <script src="{{ asset('js/wow.js') }}"></script>
     <script src="{{ asset('js/jquery.cookie.js') }}"></script>
     <script src="{{ asset('js/color-settings.js') }}"></script>
-    <script src="{{ asset('js/custom.js') }}"></script>
+     <script src="{{ asset('js/validate.js') }}"></script>
+    <script src="{{ asset('js/custom.js') }}"></script>   
     <script src="{{ asset('js/chart.min.js')}}"></script>
     <script src="{{ asset('js/vue-chartjs.js')}}"></script>
     <script src="{{ asset('js/vue.js')}}"></script>
@@ -335,13 +345,13 @@
             if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
                 return false;
             }
-            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-                return false;
-            }
+            // if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+            //     return false;
+            // }
 
-            if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-                return false;
-            }
+            // if (e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
+            //     return false;
+            // }
         }
     </script>
 </body>

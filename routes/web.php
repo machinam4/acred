@@ -37,6 +37,7 @@ Route::get('/about', function () {
 Route::get('/contact', function () {
     return view('acred.contact');
 })->name('contact');
+Route::post('/subscribe', [HomeController::class, 'SubscribeMail'])->name('subscribe');
 
 Auth::routes();
 

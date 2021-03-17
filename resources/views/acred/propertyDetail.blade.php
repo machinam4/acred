@@ -181,22 +181,28 @@
 				<div class="sidebar-widget bg-white mt-50 shadow py-40 px-30 wow slideInUp animated">
 					<h3 class="color-secondary line-bottom pb-15 mb-20">Contact Us</h3>
 					
-					<form action="#" method="post" class="mt-30">
+					<form id="contact-form" class="mt-30">
 						<div class="row">
+							@csrf
+                        <input type="hidden" name="type" value="client">
 							<div class="form-group col-md-12">
-								<input type="text" class="form-control bg-gray" placeholder="Your Name">
+								<input type="text" name="name" class="form-control bg-gray" placeholder="Your Name">
 							</div>
 							<div class="form-group col-md-12">
-								<input type="email" class="form-control bg-gray" placeholder="Email Address">
+								<input type="email" name="email" class="form-control bg-gray" placeholder="Email Address">
 							</div>
 							<div class="form-group col-md-12">
-								<input type="text" class="form-control bg-gray" placeholder="Phone">
+								<input type="text" name="subject" class="form-control bg-gray" placeholder="Subject">
 							</div>
 							<div class="form-group col-md-12">
-								<textarea class="form-control bg-gray" rows="4" placeholder="Type Your Massage"></textarea>
+								<textarea class="form-control bg-gray" name="message" rows="4" placeholder="Type Your Massage"></textarea>
 							</div>
-							<div class="col-lg-12"><button type="submit" class="btn btn-primary w-100">Send Message</button></div>
+							<div class="col-lg-12"><button type="submit" id="send" class="btn btn-primary w-100">Send Message</button></div>
 						</div>
+						<div class="error-handel position-relative">
+							<div id="success">Your email sent Successfully, Thank you.</div>
+							<div id="error">Error occurred while sending email. Please try again later.</div>
+                    	</div>
 					</form>
 				</div>
 				<div class="sidebar-widget bg-white mt-50 shadow py-40 px-30 wow slideInDown animated">

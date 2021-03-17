@@ -2,8 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Mail\SubscriptionMail;
 use App\Models\Property;
+use App\Models\SubscriptionMail as ModelsSubscriptionMail;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 
 class HomeController extends Controller
@@ -48,5 +51,24 @@ class HomeController extends Controller
             'property' => $property,
             'recentproperties' => $recentproperties
         ]);
+    }
+
+    public function SubscribeMail(Request $request)
+    {
+        ModelsSubscriptionMail::firstOrCreate(
+            ['email' => $request->email],
+            [
+                'type' => $request->type,
+                'name' => $request->name,
+                'subject' => $request->subject,
+                'message' => $request->message,
+            ]
+        );
+        $mailInfo = [
+            'title' => $request->subject,
+            'body' => $request->message,
+        ];
+        Mail::to($request->email)->send(new SubscriptionMail($mailInfo));
+        return "success";
     }
 }

@@ -38,9 +38,11 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12 col-lg-7 col-xl-8">
-                <form id="contact-form" action="https://themetrading.com/html/fresher/email.php" method="post">
+                <form id="contact-form" action="/subscribe" method="post">
                     <h3 class="color-secondary line-bottom pb-15 mb-30 wow slideInDown animated">Get in Touch</h3>
                     <div class="row">
+                        @csrf
+                        <input type="hidden" name="type" value="client">
                         <div class="form-group col-md-12 col-lg-6 wow slideInRight animated">
                             <input type="text" name="name" class="form-control bg-gray" placeholder="Your Name*">
                         </div>
