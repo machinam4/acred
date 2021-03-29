@@ -282,10 +282,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-8">
-                    <h2 class="color-secondary">Great Experience For Real Estate Property Selling</h2>
+                    <h2 class="color-secondary">Great Experience For Real Estate Property Purchase</h2>
                 </div>
                 <div class="col-md-12 col-lg-4 align-self-center">
-                    <a class="btn btn-secondery float-right mt-lg-30" href="#">Contact Us</a>
+                    <a class="btn btn-secondery float-right mt-lg-30" href="{{Route('contact')}}">Contact Us</a>
                 </div>
             </div>
         </div>
