@@ -158,20 +158,20 @@
                             <div class="col-md-12 col-lg-6 px-60 border-right">
                                 <div class="side-title pb-30">
                                     <span class="small-title color-primary position-relative line-primary">Partners</span>
-                                    <h2 class="title mb-20 color-secondary">Like to work with us?</h2>
+                                    <h2 class="title mb-20 color-secondary">Want to work with us?</h2>
                                     <p>Working with investors, developers and real estate development companies, we think not only about one-off profit, but also about the long term mutually beneficial business relationship.</p>
-                                </div>
-                                <div class="btn-position x-center">
+                                </div><br>
+                                <div class="btn-position x-center mt-30">
                                     <a class="btn btn-primary position-relative" href="{{Route('contact')}}">Contact Us</a>
                                 </div>
                             </div>
                             <div class="col-md-12 col-lg-6 px-60">
                                 <div class="side-title pb-30 mt-md-50 text-right">
                                     <span class="small-title color-primary position-relative line-right-primary">Newsletter</span>
-                                    <h2 class="title mb-20 color-secondary">Get Update Now!</h2>
+                                    <h2 class="title mb-20 color-secondary">Get Updated Now!</h2>
                                     <p>Know everything that hits the market!</p>
                                     <P>
-                                        Get private announcement and priority content by subscribing to our newsletter.
+                                        Get private announcements and priority content by subscribing to our newsletter.
                                     </p>
                                 </div>
                                 <form class="news-letter bg-gray mt-30" id=contact-form>
@@ -258,7 +258,7 @@
                                 <li><a href="{{ route('listing', 'residential') }}">For Rent</a></li>
                                 <li><a href="{{ route('listing', 'residential') }}">For Sale</a></li>
                                 <li><a href="{{ route('listing', 'office') }}">Commercial</a></li>
-                                <li><a href="{{ route('listing', 'land') }}">Lands</a></li>
+                                <li><a href="{{ route('listing', 'land') }}">Land</a></li>
                             </ul>
                         </div>
                     </div>

@@ -10,8 +10,8 @@
                 <div class="col-lg-12">
                     <h1 class="page-banner-title color-primary">Services</h1>
                     <div class="text-area w-50 mt-15 color-white">
-                        <p>Services provided by Acred Investment company evoke positive emotions and lead to the changes in clients lives for the better. 
-                             to serve all of our clients’ real estate needs in today’s increasingly fast-paced world, first of all to make them happy while looking for their preferred property investment. </p>
+                        <p>Services provided by Acred evoke positive emotions and lead to the changes in clients lives for the better. 
+                            To serve all of our clients’ real estate needs in today’s increasingly fast-paced world, to make them happy while looking for their preferred property investment. </p>
                     </div>
                 </div>
             </div>
@@ -112,9 +112,7 @@
                             <a class="my-20 d-table" href="#">
                                 <h4>Landscaping</h4>
                             </a>
-                            <p>Unique elegant landscaping designs and landscape maintanance. Leo conseq dapibus ipsum eleif
-                                massa
-                                enim potenti at magnis orci molesti praesent ultrices elementum.</p>
+                            <p>Unique elegant landscaping designs and landscape maintenance is one of the services we offer in creating a beautiful outdoor setting for your home.</p>
                              
                         </div>
                     </div>

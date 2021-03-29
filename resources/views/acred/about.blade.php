@@ -10,7 +10,7 @@
                 <div class="col-lg-12">
                     <h1 class="page-banner-title color-primary">About Us</h1>
                     <div class="text-area w-50 mt-15 color-white">
-                        <p>Welcome to the company Acred, a real estate investment company industry expert, specializing in
+                        <p>Welcome to the company Acred, a real estate investment company industry expert specializing in
                             providing tailor made high quality services for home buyers, vendors & landlords of all types,
                             properties, commercial & residential property investments. All aspects of property maintenance
                             and management in one of the most beautiful modern areas in East Africa - the fastest growing
@@ -254,7 +254,7 @@
                             <div class="col-md-6 col-lg-3">
                                 <div class="process-step flat-large icon-primary mt-md-50">
                                     <i class="flaticon-sale"></i>
-                                    <h4 class="color-white my-20">Delling Property</h4>
+                                    <h4 class="color-white my-20">Selling Property</h4>
                                     <span class="color-primary d-block pb-20">Step - 3</span>
                                     <span class="dotted position-relative"></span>
                                 </div>
@@ -285,7 +285,7 @@
                         <span class="small-title color-primary position-relative line-2-primary">What Are You Looking
                             For?</span>
                         <h2 class="title mb-20 color-secondary">Find the Best Places to you.</h2>
-                        <span class="sub-title">At Acred, we help you the ,most suitable investment tailormade and affordable to needs. With a wide variety of properties, we assure to solve all your property needs.</span>
+                        <span class="sub-title">At Acred, we help you the with most suitable investment tailormade and affordable to needs. With a wide variety of properties, we assure to solve all your property needs.</span>
                     </div>
                 </div>
                 <div class="col-lg-12">

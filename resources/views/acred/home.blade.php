@@ -72,7 +72,7 @@
                 <div class="col-md-12 col-lg-12">
                     <form class="adbanced-form-one amenities-list pt-15">
                         <div class="row">
-                            <div class="form-group col-lg-3 mb-0 position-relative">
+                            <div class="form-group col-lg-2 mb-0 position-relative">
                                 <div class="custom-radio y-center">
                                     <label>
                                         <input type="radio" name="light" checked>
@@ -84,20 +84,31 @@
                                         <span class="design"></span>
                                         <span class="text">Rent</span>
                                     </label>
-                                    <label>
+                                    <!--<label>
                                         <input type="radio" name="light">
                                         <span class="design"></span>
                                         <span class="text">Sale</span>
-                                    </label>
+                                    </label>-->
                                 </div>
                             </div>
                             <div class="form-group col-lg-3 col-md-4">
                                 <div class="select-wrapper position-relative">
                                     <select class="select form-control">
                                         <option>All Type</option>
-                                        <option>Apartment</option>
-                                        <option>Residential</option>
-                                        <option>Commercial</option>
+                                        <optgroup label="Residential">
+                                            <option>Studio</option>
+                                            <option>Duplex</option>
+                                            <option>Bungalow</option>
+                                            <option>Penthouse</option>
+                                            <option>Mansion</option>
+                                            <option>Apartment</option>
+                                            <option>Villa</option>
+                                        </optgroup>
+                                        <optgroup label="Commercial">
+                                            <option>Office</option>
+                                            <option>Building</option>
+                                            <option>Warehouse</option>
+                                        </optgroup>
                                         <option>Land</option>
                                     </select>
                                 </div>
@@ -134,12 +145,8 @@
                                                         <label for="feature-1">Gym</label>
                                                     </li>
                                                     <li>
-                                                        <input id="feature-12" class="d-none" type="checkbox">
-                                                        <label for="feature-12">Sauna</label>
-                                                    </li>
-                                                    <li>
                                                         <input id="feature-2" class="d-none" type="checkbox">
-                                                        <label for="feature-2">Infinity Pool</label>
+                                                        <label for="feature-2">Pool</label>
                                                     </li>
                                                     <li>
                                                         <input id="feature-3" class="d-none" type="checkbox">
@@ -148,14 +155,6 @@
                                                     <li>
                                                         <input id="feature-8" class="d-none" type="checkbox">
                                                         <label for="feature-8">Confrence Room</label>
-                                                    </li>
-                                                    <li>
-                                                        <input id="feature-9" class="d-none" type="checkbox">
-                                                        <label for="feature-9">Visitor's Waiting Bay</label>
-                                                    </li>
-                                                    <li>
-                                                        <input id="feature-10" class="d-none" type="checkbox">
-                                                        <label for="feature-10">Lounge Area</label>
                                                     </li>
                                                     <li>
                                                         <input id="feature-11" class="d-none" type="checkbox">
@@ -401,7 +400,7 @@
                                         <div class="d-table">
                                             <h4 class="color-secondary mb-15">Parking Lot Size</h4>
                                             <p>parking space, angles in consideration to vehicle turnover, accessibility and distance to house,
-landscape, design, drainage.</p>
+landscape design, drainage.</p>
                                         </div>
                                     </li>
                                     <li class="mt-30">
@@ -509,15 +508,14 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                 <div class="ls-slide" data-ls="duration:4000; kenburnsscale:1.2;">
                     <img width="160" height="160" src="images/background/acred_avatar_male.webp" class="ls-l" alt="" style="border-radius:50%; top:60px; left:501px;" data-ls="offsetyin:-100; durationin:800; delayin:600; easingin:easeOutExpo; scaleyin:0.8; offsetyout:-300; durationout:400; parallaxlevel:0;">
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:87px; left:165px; color: #fff" class="ls-l" data-ls="offsetyin:-130; durationin:700; delayin:700; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        Joseph Thomas</h3>
+                        Joseph Mwangi</h3>
                     <p style="width:320px; font-size:16px; font-family: 'Roboto'; line-height:30px; top:135px; left:163px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:-100; durationin:800; delayin:800; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        "I'm really happy to purchased this item! It has an incredible slider builder! It will be
-                        the base of my future projects!"</p>
+                        "I'm really happy to purchased a property with you."</p>
                     <img width="160" height="160" src="images/background/acred_avatar_female.webp" class="ls-l" alt="" style="border-radius:50%; top:140px; left:619px;" data-ls="offsetyin:100; durationin:800; delayin:1300; easingin:easeOutExpo; scaleyin:0.8; offsetyout:300; durationout:400; parallaxlevel:0;">
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:167px; left:812px; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:700; delayin:1400; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        Nancy Kimberly</h3>
+                        Everlyne Wanjiku</h3>
                     <p style="width:330px; font-size:16px; font-family: 'Roboto'; line-height:30px; top:215px; left:810px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:800; delayin:1500; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        "Guys, you are fantastic! You created the most user friendly slider I ever used!"</p>
+                        "Guys you are fantastic! You are quick to respond to client's needs!"</p>
                 </div>
 
 
@@ -525,15 +523,15 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                 <div class="ls-slide" data-ls="duration:4000; kenburnsscale:1.2;">
                     <img width="160" height="160" src="images/background/acred_avatar_female.webp" class="ls-l" alt="" style="border-radius:50%; top:140px; left:501px;" data-ls="offsetyin:100; durationin:800; delayin:600; easingin:easeOutExpo; scaleyin:0.8; offsetyout:300; durationout:400; parallaxlevel:0;">
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:167px; left:145px; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:700; delayin:700; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        Shirley Angela</h3>
+                        Geoffery Owino</h3>
                     <p style="width:330px; font-size:16px; font-family: 'Roboto'; line-height:30px; top:215px; left:145px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:800; delayin:800; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        "Absolutely the best slider I tried! It's far worth the price. Thank you for such a great
-                        product!"</p>
+                        "Absolutely the best Agency I used! Thank you for such a great
+                        design experience!"</p>
                     <img width="160" height="160" src="images/background/acred_avatar_male.webp" class="ls-l" alt="" style="border-radius:50%; top:60px; left:619px;" data-ls="offsetyin:-100; durationin:800; delayin:1300; easingin:easeOutExpo; scaleyin:0.8; offsetyout:-300; durationout:400; parallaxlevel:0;">
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:88px; left:810px; color: #fff" class="ls-l" data-ls="offsetyin:-100; durationin:700; delayin:1400; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        Gregory Samuel</h3>
+                        Mary Wambua</h3>
                     <p style="width:330px; font-size:16px; font-family: 'Roboto'; line-height:25px; top:138px; left:810px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:-100; durationin:800; delayin:1500; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        "The most intuitive Interface I have ever used. Incredible transitions and features!"</p>
+                        "The most interactive team i've ever met! Incredible advice and support!"</p>
                 </div>
             </div>
         </div>
