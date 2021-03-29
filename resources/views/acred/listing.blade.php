@@ -10,9 +10,7 @@
                  <div class="col-lg-12">
                      <h1 class="page-banner-title color-primary">Property Grid</h1>
                      <div class="text-area w-50 mt-15 color-white">
-                         <p>Porttitor luctus est sit lacinia non praesent aptent hymenaeos taciti tortor. Sociosq platea
-                             porta facilisis vitae dictum bibendun tellus ante fusce vulputate dolor lorem vulputate hac
-                             quisque diam etiam.</p>
+                         <p>Land, Residential and Commercial Properties</p>
                      </div>
                  </div>
              </div>

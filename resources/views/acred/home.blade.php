@@ -510,7 +510,7 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:87px; left:165px; color: #fff" class="ls-l" data-ls="offsetyin:-130; durationin:700; delayin:700; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
                         Joseph Mwangi</h3>
                     <p style="width:320px; font-size:16px; font-family: 'Roboto'; line-height:30px; top:135px; left:163px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:-100; durationin:800; delayin:800; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        "I'm really happy to purchased a property with you."</p>
+                        "I'm really happy to have purchased a property with you. It will be the base of my future project"</p>
                     <img width="160" height="160" src="images/background/acred_avatar_female.webp" class="ls-l" alt="" style="border-radius:50%; top:140px; left:619px;" data-ls="offsetyin:100; durationin:800; delayin:1300; easingin:easeOutExpo; scaleyin:0.8; offsetyout:300; durationout:400; parallaxlevel:0;">
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:167px; left:812px; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:700; delayin:1400; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
                         Everlyne Wanjiku</h3>
@@ -521,13 +521,13 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
 
                 <!-- Slide 2-->
                 <div class="ls-slide" data-ls="duration:4000; kenburnsscale:1.2;">
-                    <img width="160" height="160" src="images/background/acred_avatar_female.webp" class="ls-l" alt="" style="border-radius:50%; top:140px; left:501px;" data-ls="offsetyin:100; durationin:800; delayin:600; easingin:easeOutExpo; scaleyin:0.8; offsetyout:300; durationout:400; parallaxlevel:0;">
+                    <img width="160" height="160" src="images/background/acred_avatar_male.webp" class="ls-l" alt="" style="border-radius:50%; top:140px; left:501px;" data-ls="offsetyin:100; durationin:800; delayin:600; easingin:easeOutExpo; scaleyin:0.8; offsetyout:300; durationout:400; parallaxlevel:0;">
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:167px; left:145px; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:700; delayin:700; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
                         Geoffery Owino</h3>
                     <p style="width:330px; font-size:16px; font-family: 'Roboto'; line-height:30px; top:215px; left:145px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:800; delayin:800; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        "Absolutely the best Agency I used! Thank you for such a great
+                        "Absolutely the best Agency I have used! Thank you for such a great
                         design experience!"</p>
-                    <img width="160" height="160" src="images/background/acred_avatar_male.webp" class="ls-l" alt="" style="border-radius:50%; top:60px; left:619px;" data-ls="offsetyin:-100; durationin:800; delayin:1300; easingin:easeOutExpo; scaleyin:0.8; offsetyout:-300; durationout:400; parallaxlevel:0;">
+                    <img width="160" height="160" src="images/background/acred_avatar_female.webp" class="ls-l" alt="" style="border-radius:50%; top:60px; left:619px;" data-ls="offsetyin:-100; durationin:800; delayin:1300; easingin:easeOutExpo; scaleyin:0.8; offsetyout:-300; durationout:400; parallaxlevel:0;">
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:88px; left:810px; color: #fff" class="ls-l" data-ls="offsetyin:-100; durationin:700; delayin:1400; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
                         Mary Wambua</h3>
                     <p style="width:330px; font-size:16px; font-family: 'Roboto'; line-height:25px; top:138px; left:810px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:-100; durationin:800; delayin:1500; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
