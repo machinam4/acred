@@ -188,7 +188,7 @@
                 <div class="row">
                     <div class="thumbnail-angle-one overflow-hidden position-relative bg- pt-50 px-50 pb-100 text-center flat-large icon-primary color-white">
                         <span><i class="flaticon-home"></i></span>
-                        <h4 class="my-30 color-dark">Looking for the new home?</h4>
+                        <h4 class="my-30 color-dark">Looking for a new home?</h4>
                         <p class="color-dark">Welcome to the company Acred, a real estate investment company industry expert, specializing in providing tailor made high quality services for home buyers, vendors & landlords of all types, properties, commercial & residential property investments. All aspects of property maintenance and management in one of the most...</p>
                         <div class="btn-position x-center">
                             <a class="btn btn-primary position-relative" href="{{Route('about')}}">Read More</a>
@@ -515,7 +515,7 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                     <h3 style="line-height:36px; font-family: 'Montserrat'; top:167px; left:812px; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:700; delayin:1400; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
                         Everlyne Wanjiku</h3>
                     <p style="width:330px; font-size:16px; font-family: 'Roboto'; line-height:30px; top:215px; left:810px; white-space:normal; color: #fff" class="ls-l" data-ls="offsetyin:100; durationin:800; delayin:1500; easingin:easeOutExpo; durationout:400; parallaxlevel:0;">
-                        "Guys you are fantastic! You are quick to respond to client's needs!"</p>
+                        "Guys you are fantastic! You are quick to respond to clients needs!"</p>
                 </div>
 
 
