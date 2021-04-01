@@ -42,7 +42,7 @@ class PropertyController extends Controller
     {
         $input['imagename'] = time() . rand(9999, null) . '.' . $image->extension();
 
-        $filePath = public_path('/storage/uploads');
+        $filePath = Storage::path('/public/uploads');
         $img = Image::make($image);
         $img->resize($width, $height)->save($filePath . '/' . $input['imagename']);
 

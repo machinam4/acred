@@ -677,7 +677,7 @@
                 });
                 $.ajax({
                     type: "POST",
-                    url: "/subscribe",
+                    url: "public/subscribe",
                     data: $(form).serialize(),
                     success: function() {
                         $("#send").removeAttr("disabled").attr("value", "Send");
