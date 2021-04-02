@@ -42,14 +42,14 @@
                      <div class="top-filter pb-15">
                          <div class="row">
                              <div class="col-md-3 col-lg-6 col-xl-7">
-                                 <label>1-12 of 85 results</label>
+                                 {{-- <label>1-12 of 85 results</label> --}}
                              </div>
                              <div class="col-md-9 col-lg-6 col-xl-5">
                                  <div class="row">
                                      <div class="col-md-8 col-lg-7">
                                          <form>
                                              <div class="form-group d-flex mb-0">
-                                                 <label class="w-50">Short By :</label>
+                                                 <label class="w-50">Sort By :</label>
                                                  <div class="select-wrapper position-relative w-100">
                                                      <select class="select form-control">
                                                          <option>Default</option>
@@ -81,7 +81,7 @@
                          </div>
                      </div>
                  </div>
-                 <div class="col-md-12 col-lg-12 wow slideInUp animated">
+                 {{-- <div class="col-md-12 col-lg-12 wow slideInUp animated">
                      <form class="adbanced-form-two amenities-list border-top-1-gray">
                          <div class="row">
                              <div class="form-group col-lg-3 col-md-6 col-12 pt-15">
@@ -132,7 +132,7 @@
                              </div>
                          </div>
                      </form>
-                 </div>
+                 </div> --}}
                  <div class="col-md-12 col-lg-12">
                      <div class="tab-content  border-top-1-gray" id="myTabContent">
                          <div class="tab-pane fade show active" id="threerow" role="tabpanel" aria-labelledby="threerow-tab">
@@ -143,8 +143,10 @@
                                         <div class="property-item position-relative mt-30">
                                             <div class="property-img position-relative overflow-hidden overlay-secondary-4">
                                                 <img src="{{Storage::url($property->image2)}}" alt="image">
-                                                <span
-                                                    class="thum-category category-1 bg-secondary color-white z-index-1 px-15">Featured</span>
+                                               @if ($property->furnishing=='furnished')
+                            <span class="thum-category category-2 bg-secondary color-white z-index-1 px-15">Furnished</span>
+                           
+                                @endif
                                                 {{-- <span
                                                     class="thum-category category-2 bg-secondary color-white z-index-1 px-15">Featured</span> --}}
                                                 <ul class="hover-option position-absolute icon-white z-index-1">

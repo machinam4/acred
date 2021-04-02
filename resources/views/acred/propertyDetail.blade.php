@@ -44,7 +44,7 @@
 						<div class="col-md-12 col-lg-8 wow slideInRight animated">
 							<div class="single-property position-relative">
 								<span class="bg-secondary color-white z-index-1 px-15 py-5 mr-20">For {{$property->acquisition}}</span>
-								<strong class="color-primary f-20">Ksh {{$property->price}}</strong>
+								<strong class="color-primary f-20">Ksh {{ReadableNumber($property->price)}}</strong>
 								<h3 class="color-secondary mt-15">{{$property->title}}</h3>
 								<span class="address icon-primary f-14 mt-5"><i class="fa fa-map-marker"></i>{{$property->address}}, {{$property->county}}.</span>
 								<ul class="property-features icon-primary d-table f-14 mt-15">
@@ -243,7 +243,7 @@
                             <div class="property-cost color-white list-half w-100">
                                 <ul>
                                     <li class="bg-primary">For {{$property->acquisition}}</li>
-                                    <li>Ksh {{$property->price}} <sub>/Month</sub></li>
+                                    <li>Ksh {{ReadableNumber($property->price)}} <sub>/Month</sub></li>
                                 </ul>
                             </div>
                         </div>

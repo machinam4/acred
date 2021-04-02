@@ -25,7 +25,7 @@
             <i class="fa fa-map-marker color-primary mr-5" aria-hidden="true"></i>{{ $property->address}}, {{ $property->county}}.
         </p>
         <p style="font-weight:400; font-family:'Roboto'; font-size:15px; line-height:76px; color:#ffffff; top:470px; left:53px; white-space:nowrap;" class="ls-l" data-ls="offsetyin:0; durationin:1000; delayin:2200; offsetyout:-30; durationout:400; parallaxlevel:0;">
-            Ksh {{ReadableNumber($property->price)}} / Monthly</p>
+            Ksh {{ReadableNumber($property->price)}}</p>
         <a style="" class="ls-l" href="{{ route('details', $property) }}" target="_self" data-ls="offsetyin:30; durationin:1000; delayin:2800; offsetyout:-30; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#ffffff; hovercolor:#242424; parallaxlevel:0;">
             <p style="font-weight: 500; text-align:center; cursor:pointer; padding-top:8px; padding-bottom:7px; font-family:'Montserrat'; font-size:15px; top:560px; left:53px; border-top:2px solid #fff; border-right:2px solid #fff; padding-right:25px; border-bottom:2px solid #fff; border-left:2px solid #fff; padding-left:25px; line-height:30px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0, 0, 0, 0.1); border-radius:0px;" class="ls-button">View Details</p>
         </a>
@@ -52,7 +52,7 @@
             11207, United States.
         </p>
         <p style="font-weight:400; font-family:'Roboto'; font-size:15px; line-height:76px; color:#ffffff; top:470px; left:53px; white-space:nowrap;" class="ls-l" data-ls="offsetyin:0; durationin:1000; delayin:2200; offsetyout:-30; durationout:400; parallaxlevel:0;">
-            $ 5500.00 / Monthly</p>
+            $ 5500.00</p>
         <a style="" class="ls-l" href="{{Route('about')}}" target="_self" data-ls="offsetyin:30; durationin:1000; delayin:2800; offsetyout:-30; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#ffffff; hovercolor:#242424; parallaxlevel:0;">
             <p style="font-weight: 500; text-align:center; cursor:pointer; padding-top:8px; padding-bottom:7px; font-family:'Montserrat'; font-size:15px; top:560px; left:53px; border-top:2px solid #fff; border-right:2px solid #fff; padding-right:25px; border-bottom:2px solid #fff; border-left:2px solid #fff; padding-left:25px; line-height:30px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0, 0, 0, 0.1); border-radius:0px;" class="ls-button">View Details</p>
         </a>
