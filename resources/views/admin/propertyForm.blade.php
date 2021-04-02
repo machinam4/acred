@@ -57,11 +57,21 @@
 								<label>Property Type</label>
 								<div class="select-wrapper position-relative">
 									<select class="select form-control bg-gray @error('type') is-invalid @enderror" name="type" value="{{old('type')}}" reqiured>
-                                        <option value="Land">Land</option>
-										<option value="Apartment">Apartment</option>
-										<option value="BUngalow">Bungalow</option>
-										<option value="Mansion">Mansion</option>
-										<option value="Office"> Office</option>
+                                        <optgroup label="Residential">
+                                            <option value="studio">Studio</option>
+                                            <option value="duplex">Duplex</option>
+                                            <option value="bungalow">Bungalow</option>
+                                            <option value="penthouse">Penthouse</option>
+                                            <option value="mansion">Mansion</option>
+                                            <option value="apartment">Apartment</option>
+                                            <option value="villa">Villa</option>
+                                        </optgroup>
+                                        <optgroup label="Commercial">
+                                            <option value="office">Office</option>
+                                            <option value="building">Building</option>
+                                            <option value="warehouse">Warehouse</option>
+                                        </optgroup>
+                                        <option value="land">Land</option>
                                     </select>
                                     @error('type') 
                                     <div class="invalid-feedback">

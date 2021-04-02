@@ -25,7 +25,7 @@
             <i class="fa fa-map-marker color-primary mr-5" aria-hidden="true"></i>{{ $property->address}}, {{ $property->county}}.
         </p>
         <p style="font-weight:400; font-family:'Roboto'; font-size:15px; line-height:76px; color:#ffffff; top:470px; left:53px; white-space:nowrap;" class="ls-l" data-ls="offsetyin:0; durationin:1000; delayin:2200; offsetyout:-30; durationout:400; parallaxlevel:0;">
-            Ksh {{$property->price}} / Monthly</p>
+            Ksh {{ReadableNumber($property->price)}} / Monthly</p>
         <a style="" class="ls-l" href="{{ route('details', $property) }}" target="_self" data-ls="offsetyin:30; durationin:1000; delayin:2800; offsetyout:-30; durationout:400; hover:true; hoverdurationin:300; hoveropacity:1; hoverbgcolor:#ffffff; hovercolor:#242424; parallaxlevel:0;">
             <p style="font-weight: 500; text-align:center; cursor:pointer; padding-top:8px; padding-bottom:7px; font-family:'Montserrat'; font-size:15px; top:560px; left:53px; border-top:2px solid #fff; border-right:2px solid #fff; padding-right:25px; border-bottom:2px solid #fff; border-left:2px solid #fff; padding-left:25px; line-height:30px; text-align:initial; font-weight:400; font-style:normal; text-decoration:none; color:#ffffff; background:rgba(0, 0, 0, 0.1); border-radius:0px;" class="ls-button">View Details</p>
         </a>
@@ -251,7 +251,7 @@
                             <div class="hover-content py-30 px-20 overlay-hover-gradient">
                                 <div class="thumbnail-title z-index-1 position-relative">
                                     <span class="thumbnail-price bg-white color-secondary px-15 mb-10 d-table">Ksh
-                                        {{$property->price}}</span>
+                                        {{ReadableNumber($property->price)}}</span>
                                     <a class="color-secondary mb-5" href="{{ route('details', $property) }}">
                                         <h4>{{$property->title}}</h4>
                                     </a>
@@ -293,76 +293,33 @@
             <div class="col-md-12 col-lg-12">
                 <div class="owl-carousel neighborhoods owl-dots-none mt-30 owl-loaded owl-drag">
                     <div class="neighborhoods-thumbnail wow animated slideInDown">
-                        <a href="#"><img src="images/explore/1.jpg" alt="images"></a>
+                        <a href="#"><img src="images/explore/westlands.webp" alt="images"></a>
                         <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Westlands</h6>
-                        <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
-                            <ul>
-                                <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                    Listings : 92</li>
-                                <li><span class="mr-5"><i class="fa fa-usd" aria-hidden="true"></i></span> Price :
-                                    $1200 - $50000</li>
-                            </ul>
-                        </div>
+                        
                     </div>
                     <div class="neighborhoods-thumbnail wow animated slideInUp">
-                        <a href="#"><img src="images/explore/2.jpg" alt="images"></a>
+                        <a href="#"><img src="images/explore/kilimani.webp" alt="images"></a>
                         <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Kilimani</h6>
-                        <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
-                            <ul>
-                                <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                    Listings : 95</li>
-                                <li><span class="mr-5"><i class="fa fa-usd" aria-hidden="true"></i></span> Price :
-                                    $1500 - $99999</li>
-                            </ul>
-                        </div>
+                        
                     </div>
                     <div class="neighborhoods-thumbnail wow animated slideInDown">
-                        <a href="#"><img src="images/explore/3.jpg" alt="images"></a>
+                        <a href="#"><img src="images/explore/upperhill.webp" alt="images"></a>
                         <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">UpperHill</h6>
-                        <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
-                            <ul>
-                                <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                    Listings : 82</li>
-                                <li><span class="mr-5"><i class="fa fa-usd" aria-hidden="true"></i></span> Price :
-                                    $1000 - $30000</li>
-                            </ul>
-                        </div>
+                        
                     </div>
                     <div class="neighborhoods-thumbnail">
-                        <a href="#"><img src="images/explore/4.jpg" alt="images"></a>
+                        <a href="#"><img src="images/explore/kiambu.webp" alt="images"></a>
                         <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Kiambu</h6>
-                        <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
-                            <ul>
-                                <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                    Listings : 75</li>
-                                <li><span class="mr-5"><i class="fa fa-usd" aria-hidden="true"></i></span> Price :
-                                    $1500 - $75000</li>
-                            </ul>
-                        </div>
+                        
                     </div>
                     <div class="neighborhoods-thumbnail">
-                        <a href="#"><img src="images/explore/5.jpg" alt="images"></a>
+                        <a href="#"><img src="images/explore/parklands.webp" alt="images"></a>
                         <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Parklands</h6>
-                        <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
-                            <ul>
-                                <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                    Listings : 56</li>
-                                <li><span class="mr-5"><i class="fa fa-usd" aria-hidden="true"></i></span> Price :
-                                    $1200 - $50000</li>
-                            </ul>
-                        </div>
+
                     </div>
                     <div class="neighborhoods-thumbnail">
-                        <a href="#"><img src="images/explore/6.jpg" alt="images"></a>
+                        <a href="#"><img src="images/explore/mombasard.webp" alt="images"></a>
                         <h6 class="place-name py-5 px-30 bg-secondary position-absolute color-white">Mombasa Road</h6>
-                        <div class="bg-secondary py-10 px-20 color-white icon-primary d-table w-100">
-                            <ul>
-                                <li><span class="mr-5"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
-                                    Listings : 73</li>
-                                <li><span class="mr-5"><i class="fa fa-usd" aria-hidden="true"></i></span> Price :
-                                    $1000 - $70000</li>
-                            </ul>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -471,7 +428,7 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                             <div class="property-cost color-white list-half w-100">
                                 <ul>
                                     <li class="bg-primary">For {{$property->acquisition}}</li>
-                                    <li>Ksh {{$property->price}} <sub>/Month</sub></li>
+                                    <li>Ksh {{ReadableNumber($property->price)}}</li>
                                 </ul>
                             </div>
                         </div>
