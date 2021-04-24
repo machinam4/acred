@@ -27,6 +27,8 @@ Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/details/{property}', [HomeController::class, 'Details'])->name('details');
 // end to join
 Route::get('/listing/{type}', [HomeController::class, 'Listing'])->name('listing');
+Route::get('/searchpropety', [HomeController::class, 'SearchProperty'])->name('searchproperty');
+
 
 Route::get('/services', function () {
     return view('acred.services');

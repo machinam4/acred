@@ -61,26 +61,24 @@
     </div>
     @endif
 </div>
-<!-- End Slider
-                                    =========================================================================-->
-<!--Search Bar Start
-                            =========================================================================-->
+<!-- End Slider=========================================================================-->
+<!--Search Bar Start=========================================================================-->
 <div class="mb-50 wow animated slideInDown">
     <div class="header-src-fild bg-secondary py-20">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 col-lg-12">
-                    <form class="adbanced-form-one amenities-list pt-15">
+                    <form class="adbanced-form-one amenities-list pt-15" action="{{Route('searchproperty')}}">
                         <div class="row">
                             <div class="form-group col-lg-2 mb-0 position-relative">
                                 <div class="custom-radio y-center">
                                     <label>
-                                        <input type="radio" name="light" checked>
+                                        <input type="radio" name="acquisition" value="Sale">
                                         <span class="design"></span>
-                                        <span class="text">Buy</span>
+                                        <span class="text">Sale</span>
                                     </label>
                                     <label>
-                                        <input type="radio" name="light">
+                                        <input type="radio" name="acquisition" value="Rent" checked>
                                         <span class="design"></span>
                                         <span class="text">Rent</span>
                                     </label>
@@ -93,28 +91,27 @@
                             </div>
                             <div class="form-group col-lg-3 col-md-4">
                                 <div class="select-wrapper position-relative">
-                                    <select class="select form-control">
-                                        <option>All Type</option>
+                                    <select class="select form-control" name="type">
                                         <optgroup label="Residential">
-                                            <option>Studio</option>
-                                            <option>Duplex</option>
-                                            <option>Bungalow</option>
-                                            <option>Penthouse</option>
-                                            <option>Mansion</option>
-                                            <option>Apartment</option>
-                                            <option>Villa</option>
+                                            <option value="studio">Studio</option>
+                                            <option value="duplex">Duplex</option>
+                                            <option value="bungalow">Bungalow</option>
+                                            <option value="penthouse">Penthouse</option>
+                                            <option value="mansion">Mansion</option>
+                                            <option value="apartment">Apartment</option>
+                                            <option value="villa">Villa</option>
                                         </optgroup>
                                         <optgroup label="Commercial">
-                                            <option>Office</option>
-                                            <option>Building</option>
-                                            <option>Warehouse</option>
+                                            <option value="office">Office</option>
+                                            <option value="building">Building</option>
+                                            <option value="warehouse">Warehouse</option>
                                         </optgroup>
-                                        <option>Land</option>
+                                        <option value="land">Land</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="form-group col-lg-4 col-md-5">
-                                <input class="form-control mt-sm-15" type="text" name="address" placeholder="Address, State/City, Zip Code, Location">
+                                <input class="form-control mt-sm-15" type="text" name="address" placeholder="Address, State/City, Zip Code, Location" value=''>
                             </div>
                             <div class="form-group col-md-3 col-lg-2">
                                 <input class="btn btn-primary w-100 mt-sm-15" type="submit" name="search" value="Search">
@@ -127,16 +124,16 @@
                                     <div class="card card-body bg-secondary color-white pt-20">
                                         <div class="row">
                                             <div class="form-group col-lg-3 col-md-6 pt-15">
-                                                <input class="form-control" type="text" name="min-area" placeholder="Min Area (sqft)">
+                                                <input class="form-control" type="number" min="20" name="min-area" placeholder="Min Area (sqft)" >
                                             </div>
                                             <div class="form-group col-lg-3 col-md-6 pt-15">
-                                                <input class="form-control" type="text" name="max-area" placeholder="Max Area (sqft)">
+                                                <input class="form-control" type="number" min="20" name="max-area" placeholder="Max Area (sqft)" >
                                             </div>
                                             <div class="form-group col-lg-3 col-md-6 pt-15">
-                                                <input class="form-control" type="text" name="min-price" placeholder="Min Price">
+                                                <input class="form-control" type="number" min="1000" name="min-price" placeholder="Min Price" >
                                             </div>
                                             <div class="form-group col-lg-3 col-md-6 pt-15">
-                                                <input class="form-control" type="text" name="max-price" placeholder="Max Price">
+                                                <input class="form-control" type="number" min="1001" name="max-price" placeholder="Max Price">
                                             </div>
                                             <div class="form-group mb-0 col-lg-12">
                                                 <ul class="list-bottom amenities select-option mt-15 p-0">
@@ -177,10 +174,8 @@
         </div>
     </div>
 </div>
-<!--Search Bar End
-                            =========================================================================-->
-<!-- New & sale Home Start
-                                    =========================================================================-->
+<!--Search Bar End=========================================================================-->
+<!-- New & sale Home Start=========================================================================-->
 <div>
     <div class="container">
         <div class="row">
@@ -211,12 +206,10 @@
         </div>
     </div>
 </div>
-<!-- New & sale Home End
-                                    =========================================================================-->
+<!-- New & sale Home End=========================================================================-->
 
 
-<!-- Properties Thumbnail Start
-                                    =========================================================================-->
+<!-- Properties Thumbnail Start=========================================================================-->
 <section>
     <div class="container">
         <div class="row">

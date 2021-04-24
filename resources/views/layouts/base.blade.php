@@ -47,6 +47,7 @@
     <!-- Start Back to top
 =========================================================================-->
     <div id="scroll" style="display: none;"><i class="fa fa-angle-up"></i></div>
+    <div id="scroll" style="display: none;"><i class="fa fa-whatsapp"></i></div>
     <!-- End Back to top
 
  ==============================================-->

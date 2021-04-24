@@ -36,8 +36,6 @@
                             <tr class="bg-secondary color-white wow slideInDown animated">
                                 <th>Rquested Properties</th>
                                 <th>Added Date</th>
-                                <th>Views</th>
-                                <th>Comments</th>
                                 <th>Action</th>
                             </tr>
                         </thead>
@@ -52,12 +50,10 @@
                                         <span><i class="fa fa-map-marker mr-5"></i> {{ $property->address}},
                                             {{ $property->county}}</span>
                                         <div class="price mt-15"> <span class="color-primary">Ksh
-                                                {{ ReadableHumanNumber($property->price)}}</span> <span>/ Fixed Amount</span> </div>
+                                                {{ ReadableHumanNumber($property->price)}}</span> <span></span> </div>
                                     </div>
                                 </td>
                                 <td>{{ $property->updated_at->toDateString()}}</td>
-                                <td>1.8k</td>
-                                <td>509 Comments</td>
                                 <td>
                                     <a class="btn-round bg-secondary mr-5 mb-5" href="{{route('admin.editpropertyform', $property->id)}}"><i class="fa fa-pencil-square-o"></i></a>
                                     <div>

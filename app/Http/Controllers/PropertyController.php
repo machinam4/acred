@@ -161,7 +161,7 @@ class PropertyController extends Controller
      */
     public function update(Request $request, property $property)
     {
-        Storage::delete(['/storage' . $property->image1, '/storage' . $property->image2, '/storage' . $property->image3, '/storage' . $property->image4, '/storage' . $property->image5, '/storage' . $property->floorplan]);
+        Storage::delete(['/uploads' . $property->image1, '/uploads' . $property->image2, '/uploads' . $property->image3, '/uploads' . $property->image4, '/uploads' . $property->image5, '/uploads' . $property->floorplan]);
         $property->title = $request->title;
         $property->type = $request->type;
         $property->acquisition = $request->acquisition;
@@ -197,7 +197,7 @@ class PropertyController extends Controller
      */
     public function destroy(property $property)
     {
-        Storage::delete(['/storage' . $property->image1, '/storage' . $property->image2, '/storage' . $property->image3, '/storage' . $property->image4, '/storage' . $property->image5, '/storage' . $property->floorplan]);
+        Storage::delete(['/uploads' . $property->image1, '/uploads' . $property->image2, '/uploads' . $property->image3, '/uploads' . $property->image4, '/uploads' . $property->image5, '/uploads' . $property->floorplan]);
         $property->delete();
         return back();
     }
