@@ -173,7 +173,7 @@
 </div>
 <div style="background-color:#f3e6f8;">
 <div class="block-grid" style="min-width: 320px; max-width: 650px; overflow-wrap: break-word; word-wrap: break-word; word-break: break-word; Margin: 0 auto; background-color: #491f5f;">
-<div style="border-collapse: collapse;display: table;width: 100%;background-color:#491f5f;background-image:url('{{ asset('images/emails/bg-white-rombo.png')}}');background-position:top left;background-repeat:no-repeat">
+<div style="border-collapse: collapse;display: table;width: 100%;background-color:#491f5f;background-image:url('{{asset('images/emails/bg-white-rombo.png')}}');background-position:top left;background-repeat:no-repeat">
 <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color:#f3e6f8;"><tr><td align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:650px"><tr class="layout-full-width" style="background-color:#491f5f"><![endif]-->
 <!--[if (mso)|(IE)]><td align="center" width="650" style="background-color:#491f5f;width:650px; border-top: 0px solid transparent; border-left: 0px solid transparent; border-bottom: 0px solid transparent; border-right: 0px solid transparent;" valign="top"><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding-right: 0px; padding-left: 0px; padding-top:45px; padding-bottom:0px;"><![endif]-->
 <div class="col num12" style="min-width: 320px; max-width: 650px; display: table-cell; vertical-align: top; width: 650px;">
@@ -282,9 +282,9 @@
 <table align="center" cellpadding="0" cellspacing="0" class="social_table" role="presentation" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-tspace: 0; mso-table-rspace: 0; mso-table-bspace: 0; mso-table-lspace: 0;" valign="top">
 <tbody>
 <tr align="center" style="vertical-align: top; display: inline-block; text-align: center;" valign="top">
-<td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;" valign="top"><a href="https://www.facebook.com/ACRED-1984627011828522/" target="_blank"><img alt="Facebook" height="32" src="{{ asset('images/emails/facebook2x.png')}}" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;" title="facebook" width="32"/></a></td>
-<td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;" valign="top"><a href="https://twitter.com/acredinvestment?s=08" target="_blank"><img alt="Twitter" height="32" src="{{ asset('images/emails/twitter2x.png')}}" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;" title="twitter" width="32"/></a></td>
-<td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;" valign="top"><a href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0" target="_blank"><img alt="Instagram" height="32" src="{{ asset('images/emails/instagram2x.png')}}" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;" title="Instagram" width="32"/></a></td>
+<td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;" valign="top"><a href="https://www.facebook.com/ACRED-1984627011828522/" target="_blank"><img alt="Facebook" height="32" src="{{asset('images/emails/facebook2x.png')}}" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;" title="facebook" width="32"/></a></td>
+<td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;" valign="top"><a href="https://twitter.com/acredinvestment?s=08" target="_blank"><img alt="Twitter" height="32" src="{{asset('images/emails/twitter2x.png')}}" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;" title="twitter" width="32"/></a></td>
+<td style="word-break: break-word; vertical-align: top; padding-bottom: 0; padding-right: 2.5px; padding-left: 2.5px;" valign="top"><a href="https://instagram.com/acredinvestment?igshid=ybq2y0jylyo0" target="_blank"><img alt="Instagram" height="32" src="{{asset('images/emails/instagram2x.png')}}" style="text-decoration: none; -ms-interpolation-mode: bicubic; height: auto; border: 0; display: block;" title="Instagram" width="32"/></a></td>
 </tr>
 </tbody>
 </table>
@@ -320,7 +320,7 @@
 <table cellpadding="0" cellspacing="0" class="icons-inner" role="presentation" style="table-layout: fixed; vertical-align: top; border-spacing: 0; border-collapse: collapse; mso-table-lspace: 0pt; mso-table-rspace: 0pt; display: inline-block; margin-right: -4px; padding-left: 0px; padding-right: 0px;" valign="top">
 <!--<![endif]-->
 <tr style="vertical-align: top;" valign="top">
-<td align="center" style="word-break: break-word; vertical-align: top; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 6px;" valign="top"><a href="https://www.evoton.co.ke/"><img align="center" alt="Powered by Evoton" class="icon" height="32" src="{{ asset('images/emails/evoton.jpeg')}}" style="border:0;" width="null"/></a></td>
+<td align="center" style="word-break: break-word; vertical-align: top; text-align: center; padding-top: 5px; padding-bottom: 5px; padding-left: 5px; padding-right: 6px;" valign="top"><a href="https://www.evoton.co.ke/"><img align="center" alt="Powered by Evoton" class="icon" height="32" src="{{asset('images/emails/evoton.jpeg')}}" style="border:0;" width="null"/></a></td>
 <td style="word-break: break-word; font-family: Arial, Helvetica Neue, Helvetica, sans-serif; font-size: 15px; color: #9d9d9d; vertical-align: middle; letter-spacing: undefined;" valign="middle"><a href="https://www.evoton.co.ke/" style="color:#9d9d9d;text-decoration:none;">Powered by Evoton</a></td>
 </tr>
 </table>
