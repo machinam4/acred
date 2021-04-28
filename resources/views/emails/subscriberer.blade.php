@@ -23,7 +23,7 @@
 		table,
 		td,
 		tr {
-			vertical-align: top; 
+			vertical-align: top;
 			border-collapse: collapse;
 		}
 
@@ -346,11 +346,4 @@
 <!--[if (IE)]></div><![endif]-->
 </body>
 </html>
-
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
-
-Thanks,<br>
-{{ config('app.name') }}
 @endcomponent
