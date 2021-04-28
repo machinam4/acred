@@ -70,15 +70,16 @@ class HomeController extends Controller
             'body' => $request->message,
         ];
         Mail::to($request->email)->send(new SubscriptionMail($mailInfo));
+        Mail::to($request->email)->send(new SubscriptionMail($mailInfo));
 
-        $mailerInfo = [
-                'email' => $request->email,
-                'type' => $request->type,
-                'name' => $request->name,
-                'subject' => $request->subject,
-                'message' => $request->message,
-        ];
-        Mail::to(config('mail.from.address'))->send(new SubscriberMail($mailerInfo));
+        // $mailerInfo = [
+        //         'email' => $request->email,
+        //         'type' => $request->type,
+        //         'name' => $request->name,
+        //         'subject' => $request->subject,
+        //         'message' => $request->message,
+        // ];
+        // Mail::to(config('machinamaiki@gmail.com'))->send(new SubscriberMail($mailerInfo));
         return "success";
     }
 
