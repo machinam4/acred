@@ -23,7 +23,7 @@
 		table,
 		td,
 		tr {
-			vertical-align: top;
+			vertical-align: top; 
 			border-collapse: collapse;
 		}
 
