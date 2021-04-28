@@ -78,7 +78,7 @@ class HomeController extends Controller
                 'subject' => $request->subject,
                 'message' => $request->message,
         ];
-        Mail::to(config('machinamaiki@gmail.com'))->send(new SubscriberMail($mailerInfo));
+        Mail::to('machinamaiki@gmail.com')->send(new SubscriberMail($mailerInfo));
         return "success";
     }
 
