@@ -29,6 +29,6 @@ class SubscriberMail extends Mailable
      */
     public function build()
     {
-        return $this->markdown('emails.subscriber')->with($mailerInfo);
+        return $this->markdown('emails.subscriber')->with(['mailerInfo' => $mailerInfo]);
     }
 }
