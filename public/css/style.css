@@ -436,7 +436,7 @@ textarea.form-control {
 #scroll {
     position: fixed;
     right: 30px;
-    bottom: 50px;
+    bottom: 80px;
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -446,18 +446,6 @@ textarea.form-control {
     display: none;
 }
 
-#whatsapp {
-    position: fixed;
-    right: 30px;
-    bottom: 50px;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    z-index: 9999;
-    cursor: pointer;
-    display: none;
-}
 
 /* 02.  Default Margin & Padding CSS
 =======================================================*/

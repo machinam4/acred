@@ -29,6 +29,6 @@ class SubscriberMail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.subscriber');
+        return $this->view('emails.subscription');
     }
 }
