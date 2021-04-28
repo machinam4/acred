@@ -178,9 +178,9 @@
                                     <div class="form-group position-relative">
                                         @csrf
                                         <input type="hidden" name="type" value="client">
-                                        <input type="hidden" name="name" value="client">
-                                        <input type="hidden" name="subject" value="client">
-                                        <input type="hidden" name="message" value="client">                                        
+                                        <input type="hidden" name="name" value="subscriber">
+                                        <input type="hidden" name="subject" value="Subscribe to mailing List">
+                                        <input type="hidden" name="message" value="I would like to subscribe to mailing list">                                        
                                         <input class="form-control" type="text" name="email" placeholder="Subscribe">
                                         <button class="bg-gray color-secondary" id="send"><i class="fa fa-paper-plane"></i></button>
                                     </div>

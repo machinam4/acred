@@ -6,6 +6,8 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use Illuminate\Http\Request;
+
 
 class SubscriberMail extends Mailable
 {
@@ -17,7 +19,7 @@ class SubscriberMail extends Mailable
      *
      * @return void
      */
-    public function __construct($mailerInfo)
+    public function __construct(Request $mailerInfo)
     {
         $this->mailerInfo = $mailerInfo; 
     }
@@ -29,6 +31,6 @@ class SubscriberMail extends Mailable
      */
     public function build()
     {
-        return $this->view('emails.subscriberer', ['mailerInfo' => $this->mailerInfo]);
+        return $this->subject($this->mailerInfo->subject)->view('emails.subscriberer')->with(['mailerInfo' => $this->mailerInfo]);
     }
 }
