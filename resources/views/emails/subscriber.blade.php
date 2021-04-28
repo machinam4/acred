@@ -2,6 +2,7 @@
  Introduction
 
 The body of your message.
+{{$mailerInfo->subject}}
 @component('mail::button', ['url' => ''])
 Button Text
 @endcomponent
