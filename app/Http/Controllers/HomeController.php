@@ -79,7 +79,7 @@ class HomeController extends Controller
         //         'message' => $request->message,
         // ];
 
-        Mail::to('machinamaiki@gmail.com')->send(new SubscriberMail($request));
+        Mail::to(env('SUBSCRIBER_MAIL_TO'))->send(new SubscriberMail($request));
         return "success";
     }
 
