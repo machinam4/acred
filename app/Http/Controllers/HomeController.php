@@ -70,7 +70,7 @@ class HomeController extends Controller
             'body' => $request->message,
         ];
         Mail::to($request->email)->send(new SubscriptionMail($mailInfo));
-
+       
         $mailerInfo = [
                 'email' => $request->email,
                 'type' => $request->type,
@@ -78,6 +78,7 @@ class HomeController extends Controller
                 'subject' => $request->subject,
                 'message' => $request->message,
         ];
+
         Mail::to('machinamaiki@gmail.com')->send(new SubscriberMail($mailerInfo));
         return "success";
     }
