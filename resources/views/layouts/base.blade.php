@@ -13,8 +13,8 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Favicon and touch icons  -->
-    <link rel="shortcut icon" href="{{ asset('images/logo/AcredInvLogo3.jpeg')}}">
-    <link rel="apple-touch-icon-precomposed" href="{{ asset('images/logo/AcredInvLogo3.jpeg')}}">
+    <link rel="shortcut icon" href="{{ asset('images/logo/AcredInvLogo2.jpeg')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('images/logo/AcredInvLogo2.jpeg')}}">
     <!--CSs Links
  ==================================================================-->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
