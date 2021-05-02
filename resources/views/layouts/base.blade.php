@@ -5,12 +5,16 @@
     <!--===== Meta Tag =====-->
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="description" content="AcredInvestments - Real Estate Agency">
+    <meta name="description" content="Welcome to the company Acred, a real estate investment company industry expert, specializing in providing tailor made high quality services for home buyers, vendors & landlords of all types, properties, commercial & residential property investments.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords" content="business, property, directory, listing, real estate, Real estate, realtor, developer, apartment, broker, real estate agency, map, company, agent, rent house">
     <meta name="author" content="machina@evoton.co.ke">
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
+
+    <!-- Favicon and touch icons  -->
+    <link rel="shortcut icon" href="{{ asset('images/logo/AcredInvLogo3.jpeg')}}">
+    <link rel="apple-touch-icon-precomposed" href="{{ asset('images/logo/AcredInvLogo3.jpeg')}}">
     <!--CSs Links
  ==================================================================-->
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
