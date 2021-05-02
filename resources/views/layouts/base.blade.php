@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- Title -->
-    <title>Acred Investments - Real Estate Agency</title>
+    <title>Acred Investment - Real Estate Agency</title>
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/logo/AcredInvLogo3.jpeg') }}">
@@ -64,7 +64,7 @@
                         <ul class="list-style-1 icon-primary color-white d-flex">
                             <li><i class="fa fa-map-marker"></i>Niarobi, Kenya</li>
                             <li><i class="fa fa-phone"></i> +(254) 790-790-900</li>
-                            <li><i class="fa fa-envelope"></i> info@acredinvestments.com</li>
+                            <li><i class="fa fa-envelope"></i> info@acredinvestment.com</li>
                         </ul>
                     </div>
                     <div class="col-md-12 col-lg-3 col-xl-4">
