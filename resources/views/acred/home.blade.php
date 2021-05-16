@@ -147,11 +147,11 @@
                                                     </li>
                                                     <li>
                                                         <input id="feature-3" class="d-none" type="checkbox">
-                                                        <label for="feature-3">Chilred's play area</label>
+                                                        <label for="feature-3">Chilren's play area</label>
                                                     </li>
                                                     <li>
                                                         <input id="feature-8" class="d-none" type="checkbox">
-                                                        <label for="feature-8">Confrence Room</label>
+                                                        <label for="feature-8">Conference Room</label>
                                                     </li>
                                                     <li>
                                                         <input id="feature-11" class="d-none" type="checkbox">

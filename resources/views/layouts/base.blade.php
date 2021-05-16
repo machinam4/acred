@@ -62,7 +62,7 @@
                 <div class="row">
                     <div class="col-md-12 col-lg-9 col-xl-8">
                         <ul class="list-style-1 icon-primary color-white d-flex">
-                            <li><i class="fa fa-map-marker"></i>Niarobi, Kenya</li>
+                            <li><i class="fa fa-map-marker"></i>Nairobi, Kenya</li>
                             <li><i class="fa fa-phone"></i> +(254) 790-790-900</li>
                             <li><i class="fa fa-envelope"></i> info@acredinvestment.com</li>
                         </ul>

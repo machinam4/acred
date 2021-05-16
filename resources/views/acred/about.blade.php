@@ -284,7 +284,7 @@
                     <div class="main-title w-75 mx-auto d-table text-center mb-30 wow slideInDown animated">
                         <span class="small-title color-primary position-relative line-2-primary">What Are You Looking
                             For?</span>
-                        <h2 class="title mb-20 color-secondary">Find the Best Places to you.</h2>
+                        <h2 class="title mb-20 color-secondary">Find the Best Places for you.</h2>
                         <span class="sub-title">At Acred, we help you the with most suitable investment tailormade and affordable to needs. With a wide variety of properties, we assure to solve all your property needs.</span>
                     </div>
                 </div>
