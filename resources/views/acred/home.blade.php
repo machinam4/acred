@@ -498,7 +498,7 @@ fireplace, heated floors, sitting or office area, AC or ceiling fans, solar heat
                 <div class="side-title mb-30">
                     <span class="small-title color-primary position-relative line-primary">What Are You Looking
                         For?</span>
-                    <h2 class="title mb-20 color-secondary">Find the Best Places to you.</h2>
+                    <h2 class="title mb-20 color-secondary">Find the Best Places for you.</h2>
                     <p>Luctus posuere facilisi eros auctor lacinia litora. Convall aptent nisy parturient scelerisq.
                         Nullam fringil condimen integer mauris lacus aliquam, quam massa lobortis commod proin
                         magna.</p>
