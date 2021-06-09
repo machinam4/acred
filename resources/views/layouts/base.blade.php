@@ -42,6 +42,18 @@
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/logo/AcredInvLogo3.jpeg') }}">
 
+    {{-- google trcking --}}
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-199178060-1">
+</script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-199178060-1');
+</script>
+
 </head>
 
 <body oncontextmenu="return false;">
