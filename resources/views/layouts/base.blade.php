@@ -37,7 +37,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
 
     <!-- Title -->
-    <title>Acred Investment - Real Estate Agency</title>
+    <title>Acred Investment</title>
 
     <!-- Favicon Icon -->
     <link rel="shortcut icon" type="image/x-icon" href="{{ asset('images/logo/AcredInvLogo3.jpeg') }}">
